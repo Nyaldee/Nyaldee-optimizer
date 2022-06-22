@@ -1,1 +1,429 @@
+Windows Registry Editor Version 5.00
 
+[HKEY_CURRENT_USER\Software\7-Zip\Options]
+"ContextMenu"=dword:80000106
+"MenuIcons"=dword:00000000
+"CascadedMenu"=dword:00000001
+"ElimDupExtract"=dword:00000001
+[HKEY_CURRENT_USER\Control Panel\UnsupportedHardwareNotificationCache]
+"SV1"=dword:00000000
+"SV2"=dword:00000000
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects]
+"VisualFXSetting"=dword:3
+[HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics]
+"MinAnimate"="0"
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"TaskbarAnimations"=dword:0
+"ListviewAlphaSelect"=dword:0
+"ListviewShadow"=dword:0
+"IconsOnly"=dword:0
+"Start_TrackProgs"=dword:00000000
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\DWM]
+"EnableAeroPeek"=dword:0
+"AlwaysHibernateThumbnails"=dword:0
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"UserPreferencesMask"=hex:90,12,03,80,12,01,00,00
+"DragFullWindows"="1"
+"FontSmoothing"="2"
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\PriorityControl]
+"Win32PrioritySeparation"=dword:00000026
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Remote Assistance]
+"fAllowToGetHelp"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"StartupBoostEnabled"=dword:00000000
+"BackgroundModeEnabled"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MicrosoftEdgeElevationService]
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\edgeupdate]
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\edgeupdatem]
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
+"StartupBoostEnabled"=dword:00000000
+"BackgroundModeEnabled"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\GoogleChromeElevationService]
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\gupdate]
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\gupdatem]
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsStore]
+"AutoDownload"=dword:00000002
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run]
+"ctfmon"="\"C:\\Windows\\System32\\ctfmon.exe\""
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\TaskCache\Tree]
+[HKEY_CURRENT_USER\Software\Microsoft\Narrator\NoRoam]
+"DuckAudio"=dword:00000000
+"WinEnterLaunchEnabled"=dword:00000000
+"ScriptingEnabled"=dword:00000000
+"OnlineServicesEnabled"=dword:00000000
+[HKEY_CURRENT_USER\Software\Microsoft\Narrator]
+"NarratorCursorHighlight"=dword:00000000
+"CoupleNarratorCursorKeyboard"=dword:00000000
+[HKEY_CURRENT_USER\Software\Microsoft\Ease of Access]
+"selfvoice"=dword:00000000
+"selfscan"=dword:00000000
+[HKEY_CURRENT_USER\Control Panel\Accessibility]
+"Sound on Activation"=dword:00000000
+"Warning Sounds"=dword:00000000
+[HKEY_CURRENT_USER\Control Panel\Accessibility\HighContrast]
+"Flags"="4194"
+[HKEY_CURRENT_USER\Control Panel\Accessibility\Keyboard Response]
+"Flags"="2"
+"AutoRepeatRate"="0"
+"AutoRepeatDelay"="0"
+[HKEY_CURRENT_USER\Control Panel\Accessibility\MouseKeys]
+"Flags"="130"
+"MaximumSpeed"="39"
+"TimeToMaximumSpeed"="3000"
+[HKEY_CURRENT_USER\Control Panel\Accessibility\StickyKeys]
+"Flags"="2"
+[HKEY_CURRENT_USER\Control Panel\Accessibility\ToggleKeys]
+"Flags"="34"
+[HKEY_CURRENT_USER\Control Panel\Accessibility\SoundSentry]
+"Flags"="0"
+"FSTextEffect"="0"
+"TextEffect"="0"
+"WindowsEffect"="0"
+[HKEY_CURRENT_USER\Control Panel\Accessibility\SlateLaunch]
+"ATapp"=""
+"LaunchAT"=dword:00000000
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"MouseSpeed"="0"
+"MouseThreshold1"="0"
+"MouseThreshold2"="0"
+"MouseSensitivity"="10"
+[HKEY_CURRENT_USER\Software\Microsoft\GameBar]
+"AutoGameModeEnabled"=dword:00000000
+"UseNexusForGameBarEnabled"=dword:00000000
+[HKEY_CURRENT_USER\System\GameConfigStore]
+"GameDVR_Enabled"=dword:00000000
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\GameDVR]
+"AppCaptureEnabled"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
+"NetworkThrottlingIndex"=dword:ffffffff
+"SystemResponsiveness"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerThrottling]
+"PowerThrottlingOff"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games]
+"Affinity"=dword:00000000
+"Background Only"="False"
+"Clock Rate"=dword:00002710
+"GPU Priority"=dword:00000008
+"Priority"=dword:00000006
+"Scheduling Category"="High"
+"SFIO Priority"="High"
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers]
+"HwSchMode"=dword:00000002
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\VideoSettings]
+"VideoQualityOnBattery"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching]
+"SearchOrderConfig"=dword:00000000
+[HKEY_CURRENT_USER\Software\NVIDIA Corporation\NvTray]
+"StartOnLogin"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\Maintenance]
+"MaintenanceDisabled"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power]
+"HibernateEnabled"=dword:00000000
+[HKEY_CURRENT_USER\Control Panel\Sound]
+"Beep"="no"
+[HKEY_CURRENT_USER\AppEvents\Schemes]
+@=".None"
+[HKEY_CURRENT_USER\Software\Microsoft\Multimedia\Audio]
+"UserDuckingPreference"=dword:00000003
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI\BootAnimation]
+"DisableStartupSound"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\EditionOverrides]
+"UserSetting_DisableStartupSound"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize]
+"EnableTransparency"=dword:00000000
+"AppsUseLightTheme"=dword:00000000
+"SystemUsesLightTheme"=dword:00000000
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Serialize]
+"Startupdelayinmsec"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control]
+"WaitToKillServiceTimeout"="2000"
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"AutoEndTasks"="1"
+"HungAppTimeout"="1000"
+"MenuShowDelay"="0"
+"WaitToKillAppTimeout"="2000"
+"JPEGImportQuality"=dword:00000064
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"EnableLUA"=dword:00000000
+"DisableAutomaticRestartSignOn"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications] 
+"GlobalUserDisabled"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\Maps]
+"AutoUpdateEnabled"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
+"LongPathsEnabled"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Scan]
+"DisableRemovableDriveScanning"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NlaSvc\Parameters\Internet]
+"ActiveDnsProbeContent"="208.67.222.222"
+"ActiveDnsProbeContentV6"="2620:119:35::35"
+"ActiveDnsProbeHost"="resolver1.opendns.com"
+"ActiveDnsProbeHostV6"="resolver1.opendns.com"
+"ActiveWebProbeHost"="network-test.debian.org"
+"ActiveWebProbeHostV6"="network-test.debian.org"
+"EnableActiveProbing"=dword:00000000
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"TaskbarMn"=dword:00000000
+"TaskbarDa"=dword:00000000
+"HideFileExt"=dword:00000000
+"LaunchTo"=dword:00000001
+"ShowTaskViewButton"=dword:00000000
+"ShowCortanaButton"=dword:00000000
+"Hidden"=dword:00000001
+"MultiTaskingAltTabFilter"=dword:00000003
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Search]
+"SearchboxTaskbarMode"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters]
+"EnablePrefetcher"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"DisableLogonBackgroundImage"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows]
+"NoLockScreen"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Personalization]
+"NoLockScreen"=dword:00000001
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Settings]
+"DownloadMode"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\location]
+"Value"="Deny"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\webcam]
+"Value"="Allow"
+[Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\microphone]
+"Value"="Allow"
+[HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Settings\VoiceActivation\UserPreferenceForAllApps]
+"AgentActivationEnabled"=dword:00000000
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\userNotificationListener]
+"Value"="Deny"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\userAccountInformation]
+"Value"="Deny"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\contacts]
+"Value"="Deny"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\appointments]
+"Value"="Deny"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\phoneCall]
+"Value"="Deny"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\phoneCallHistory]
+"Value"="Deny"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\email]
+"Value"="Deny"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\userDataTasks]
+"Value"="Deny"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\chat]
+"Value"="Deny"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\radios]
+"Value"="Deny"
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\bluetoothSync]
+"Value"="Deny"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\appDiagnostics]
+"Value"="Deny"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\documentsLibrary]
+"Value"="Deny"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\downloadsFolder]
+"Value"="Deny"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\musicLibrary]
+"Value"="Deny"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\picturesLibrary]
+"Value"="Deny"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\videosLibrary]
+"Value"="Deny"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\broadFileSystemAccess]
+"Value"="Deny"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\graphicsCaptureWithoutBorder]
+"Value"="Deny"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\graphicsCaptureProgrammatic]
+"Value"="Allow"
+[HKEY_CURRENT_USER\Control Panel\International\User Profile]
+"HttpAcceptLanguageOptOut"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\PushNotifications]
+"ToastEnabled"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer]
+"DisableSearchBoxSuggestions"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\SearchSettings]
+"IsMSACloudSearchEnabled"=dword:00000000
+"IsAADCloudSearchEnabled"=dword:00000000
+"IsDeviceSearchHistoryEnabled"=dword:00000000
+"SafeSearchMode"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\AppCompat]
+"AITEnable"=dword:00000000
+"DisableInventory"=dword:00000001
+"DisablePCA"=dword:00000001
+"DisablePropPage"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"link"=hex:00,00,00,00
+"ShowFrequent"=dword:00000000
+"ShowRecent"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked]
+"{7AD84985-87B4-4a16-BE58-8B72A5B390F7}"=""
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoRecentDocsHistory"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoRecentDocsHistory"=dword:00000001
+"UseDefaultTile"=dword:00000001
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HomeFolderDesktop\NameSpace\DelegateFolders\{3134ef9c-6b18-4996-ad04-ed5912e00eb5}]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HomeFolderDesktop\NameSpace\DelegateFolders\{3936E9E4-D92C-4EEE-A85A-BC16D5EA0819}]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\HomeFolderDesktop\NameSpace\DelegateFolders\{3134ef9c-6b18-4996-ad04-ed5912e00eb5}]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\HomeFolderDesktop\NameSpace\DelegateFolders\{3936E9E4-D92C-4EEE-A85A-BC16D5EA0819}]
+[-HKEY_CLASSES_ROOT\*\shell\pintohomefile]
+[-HKEY_CLASSES_ROOT\Folder\ShellEx\ContextMenuHandlers\Library Location]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\ShellEx\ContextMenuHandlers\Library Location]
+[-HKEY_CLASSES_ROOT\Folder\shell\pintohome]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\pintohome]
+[-HKEY_CLASSES_ROOT\Folder\shellex\ContextMenuHandlers\PintoStartScreen]
+[-HKEY_CLASSES_ROOT\exefile\shellex\ContextMenuHandlers\PintoStartScreen]
+[-HKEY_CLASSES_ROOT\Microsoft.Website\ShellEx\ContextMenuHandlers\PintoStartScreen]
+[-HKEY_CLASSES_ROOT\mscfile\shellex\ContextMenuHandlers\PintoStartScreen]
+[-HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\SendTo]
+[-HKEY_CLASSES_ROOT\UserLibraryFolder\shellex\ContextMenuHandlers\SendTo]
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\ModernSharing]
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\Sharing]
+[-HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\Sharing]
+[-HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\Sharing]
+[-HKEY_CLASSES_ROOT\Directory\shellex\CopyHookHandlers\Sharing]
+[-HKEY_CLASSES_ROOT\Directory\shellex\PropertySheetHandlers\Sharing]
+[-HKEY_CLASSES_ROOT\Drive\shellex\ContextMenuHandlers\Sharing]
+[-HKEY_CLASSES_ROOT\Drive\shellex\PropertySheetHandlers\Sharing]
+[-HKEY_CLASSES_ROOT\LibraryFolder\background\shellex\ContextMenuHandlers\Sharing]
+[-HKEY_CLASSES_ROOT\UserLibraryFolder\shellex\ContextMenuHandlers\Sharing]
+[-HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\ModernSharing]
+[-HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\{596AB062-B4D2-4215-9F74-E9109B0A8153}]
+[-HKEY_CLASSES_ROOT\CLSID\{450D8FBA-AD25-11D0-98A8-0800361B1103}\shellex\ContextMenuHandlers\{596AB062-B4D2-4215-9F74-E9109B0A8153}]
+[-HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\{596AB062-B4D2-4215-9F74-E9109B0A8153}]
+[-HKEY_CLASSES_ROOT\Drive\shellex\ContextMenuHandlers\{596AB062-B4D2-4215-9F74-E9109B0A8153}]
+[-HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\PropertySheetHandlers\{596AB062-B4D2-4215-9F74-E9109B0A8153}]
+[-HKEY_CLASSES_ROOT\CLSID\{450D8FBA-AD25-11D0-98A8-0800361B1103}\shellex\PropertySheetHandlers\{596AB062-B4D2-4215-9F74-E9109B0A8153}]
+[-HKEY_CLASSES_ROOT\Directory\shellex\PropertySheetHandlers\{596AB062-B4D2-4215-9F74-E9109B0A8153}]
+[-HKEY_CLASSES_ROOT\Drive\shellex\PropertySheetHandlers\{596AB062-B4D2-4215-9F74-E9109B0A8153}]
+[-HKEY_CLASSES_ROOT\batfile\ShellEx\ContextMenuHandlers]
+[-HKEY_CLASSES_ROOT\cmdfile\ShellEx\ContextMenuHandlers]
+[-HKEY_CLASSES_ROOT\exefile\shellex\ContextMenuHandlers]
+[-HKEY_CLASSES_ROOT\lnkfile\shellex\ContextMenuHandlers\Compatibility]
+[-HKEY_CLASSES_ROOT\Msi.Package\shellex\ContextMenuHandlers]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\edit]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\text\shell\edit]
+[-HKEY_CLASSES_ROOT\Applications\mspaint.exe\shell\edit]
+[-HKEY_CLASSES_ROOT\Applications\notepad.exe\shell\edit]
+[-HKEY_CLASSES_ROOT\batfile\shell\edit]
+[-HKEY_CLASSES_ROOT\cmdfile\shell\edit]
+[-HKEY_CLASSES_ROOT\group_wab_auto_file\shell\edit]
+[-HKEY_CLASSES_ROOT\JSEFile\Shell\Edit]
+[-HKEY_CLASSES_ROOT\JSFile\Shell\Edit]
+[-HKEY_CLASSES_ROOT\Paint.Picture\shell\edit]
+[-HKEY_CLASSES_ROOT\PBrush\shell\edit]
+[-HKEY_CLASSES_ROOT\RDP.File\shell\Edit]
+[-HKEY_CLASSES_ROOT\regfile\shell\edit]
+[-HKEY_CLASSES_ROOT\VBEFile\Shell\Edit]
+[-HKEY_CLASSES_ROOT\VBSFile\Shell\Edit]
+[-HKEY_CLASSES_ROOT\Windows.XamlDocument\shell\edit]
+[-HKEY_CLASSES_ROOT\Windows.Xbap\shell\edit]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.3mf\Shell\3D Edit]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\Shell\3D Edit]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.fbx\Shell\3D Edit]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\Shell\3D Edit]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.jfif\Shell\3D Edit]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.jpe\Shell\3D Edit]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg\Shell\3D Edit]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\3D Edit]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.png\Shell\3D Edit]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.tif\Shell\3D Edit]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\Shell\3D Edit]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.avci\ShellEx\ContextMenuHandlers\ShellImagePreview]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.avif\ShellEx\ContextMenuHandlers\ShellImagePreview]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\ShellEx\ContextMenuHandlers\ShellImagePreview]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.dds\ShellEx\ContextMenuHandlers\ShellImagePreview]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.dib\ShellEx\ContextMenuHandlers\ShellImagePreview]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\ShellEx\ContextMenuHandlers\ShellImagePreview]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.heic\ShellEx\ContextMenuHandlers\ShellImagePreview]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.heif\ShellEx\ContextMenuHandlers\ShellImagePreview]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.ico\ShellEx\ContextMenuHandlers\ShellImagePreview]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.jfif\ShellEx\ContextMenuHandlers\ShellImagePreview]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.jpe\ShellEx\ContextMenuHandlers\ShellImagePreview]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg\ShellEx\ContextMenuHandlers\ShellImagePreview]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\ShellEx\ContextMenuHandlers\ShellImagePreview]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.jxr\ShellEx\ContextMenuHandlers\ShellImagePreview]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.png\ShellEx\ContextMenuHandlers\ShellImagePreview]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.rle\ShellEx\ContextMenuHandlers\ShellImagePreview]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.tif\ShellEx\ContextMenuHandlers\ShellImagePreview]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\ShellEx\ContextMenuHandlers\ShellImagePreview]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.wdp\ShellEx\ContextMenuHandlers\ShellImagePreview]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\ShellEx\ContextMenuHandlers\ShellImagePreview]
+[-HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\Subscriptions]
+[-HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SuggestedApps]
+[-HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\Renderers]
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"PreInstalledAppsEnabled"=dword:00000000
+"SilentInstalledAppsEnabled"=dword:00000000
+"SlideshowEnabled"=dword:00000000
+"ContentDeliveryAllowed"=dword:00000000
+"SubscribedContent-338389Enabled"=dword:00000000
+"SubscribedContent-338388Enabled"=dword:00000000
+"SubscribedContent-88000326Enabled"=dword:00000000
+"FeatureManagementEnabled"=-
+"OemPreInstalledAppsEnabled"=-
+"RotatingLockScreenEnabled"=-
+"RotatingLockScreenOverlayEnabled"=-
+"SoftLandingEnabled"=-
+"SystemPaneSuggestionsEnabled"=-
+"PreInstalledAppsEverEnabled"=-
+[HKEY_CLASSES_ROOT\.blank]
+@="blankfile"
+[HKEY_CLASSES_ROOT\.blank\ShellNew]
+"NullFile"=""
+"IconPath"="%SystemRoot%\\System32\\imageres.dll,2"
+[HKEY_CLASSES_ROOT\.blank\ShellNew\Config]
+"NoExtension"=""
+[HKEY_CLASSES_ROOT\blankfile]
+@="Blank Document"
+[HKEY_CLASSES_ROOT\.txt]
+@="txtfile"
+[HKEY_CLASSES_ROOT\.txt\ShellNew]
+"NullFile"=""
+"IconPath"="%SystemRoot%\\System32\\imageres.dll,-102"
+[HKEY_CLASSES_ROOT\.txt\ShellNew\Config]
+"Extension"=".txt"
+[HKEY_CLASSES_ROOT\txtfile]
+@="Text Document"
+[HKEY_CLASSES_ROOT\CABFolder\Shell\RunAs]
+@="Install this update"
+"HasLUAShield"=""
+[HKEY_CLASSES_ROOT\CABFolder\Shell\RunAs\Command]
+@="cmd /k dism /online /add-package /packagepath:\"%1\""
+[-HKEY_CLASSES_ROOT\*\shell\TakeOwnership]
+[-HKEY_CLASSES_ROOT\*\shell\runas]
+[HKEY_CLASSES_ROOT\*\shell\TakeOwnership]
+@="Take Ownership"
+"Extended"=""
+"HasLUAShield"=""
+"NoWorkingDirectory"=""
+"NeverDefault"=""
+[HKEY_CLASSES_ROOT\*\shell\TakeOwnership\command]
+@="powershell -windowstyle hidden -command \"Start-Process cmd -ArgumentList '/c takeown /f \\\"%1\\\" && icacls \\\"%1\\\" /grant *S-1-3-4:F /t /c /l & pause' -Verb runAs\""
+"IsolatedCommand"= "powershell -windowstyle hidden -command \"Start-Process cmd -ArgumentList '/c takeown /f \\\"%1\\\" && icacls \\\"%1\\\" /grant *S-1-3-4:F /t /c /l & pause' -Verb runAs\""
+[HKEY_CLASSES_ROOT\Directory\shell\TakeOwnership]
+@="Take Ownership"
+"AppliesTo"="NOT (System.ItemPathDisplay:=\"C:\\Users\" OR System.ItemPathDisplay:=\"C:\\ProgramData\" OR System.ItemPathDisplay:=\"C:\\Windows\" OR System.ItemPathDisplay:=\"C:\\Windows\\System32\" OR System.ItemPathDisplay:=\"C:\\Program Files\" OR System.ItemPathDisplay:=\"C:\\Program Files (x86)\")"
+"Extended"=""
+"HasLUAShield"=""
+"NoWorkingDirectory"=""
+"Position"="middle"
+[HKEY_CLASSES_ROOT\Directory\shell\TakeOwnership\command]
+@="powershell -windowstyle hidden -command \"Start-Process cmd -ArgumentList '/c takeown /f \\\"%1\\\" /r /d y && icacls \\\"%1\\\" /grant *S-1-3-4:F /t /c /l /q & pause' -Verb runAs\""
+"IsolatedCommand"="powershell -windowstyle hidden -command \"Start-Process cmd -ArgumentList '/c takeown /f \\\"%1\\\" /r /d y && icacls \\\"%1\\\" /grant *S-1-3-4:F /t /c /l /q & pause' -Verb runAs\""
+[HKEY_CLASSES_ROOT\Drive\shell\runas]
+@="Take Ownership"
+"Extended"=""
+"HasLUAShield"=""
+"NoWorkingDirectory"=""
+"Position"="middle"
+"AppliesTo"="NOT (System.ItemPathDisplay:=\"C:\\\")"
+[HKEY_CLASSES_ROOT\Drive\shell\runas\command]
+@="cmd.exe /c takeown /f \"%1\\\" /r /d y && icacls \"%1\\\" /grant *S-1-3-4:F /t /c & Pause"
+"IsolatedCommand"="cmd.exe /c takeown /f \"%1\\\" /r /d y && icacls \"%1\\\" /grant *S-1-3-4:F /t /c & Pause"
