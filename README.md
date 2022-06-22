@@ -1,34 +1,10 @@
 # Nyaldee optimizer for Windows 11
 <img src="https://github.com/Nyaldee/Nyaldee-optimizer/blob/main/Azusa-san.png" width="643" height="264">
 
-Collection d'optimisation dans un seul batch.
-
-- Configuration des cartes graphique Nvidia.
-- Assistant de configuration des paramètres Windows.
-- Configuration du registre.
-- Supprimer définitivement les sons Windows.
-- Restauration du menu contextuel pour Windows 11.
-- Désactivation de l'animation de chargement au démarrage de Windows.
-- Désactivation de l'avatar au démarrage.
-- Désactivation des services.
-- Désactivation de VBS.
-- Activation des DNS OpenDNS.
-- Modifier les effets visuels de façon optimale.
-- Installation du plan d'alimentation Bitsum Highest Performance.
-- Installation des bibliothèques de framework.
-- Installation du service Timer Resolution.
-- Désinstallation de certaines applications.
-- Outil de nettoyage de disques complet.
-- Suppression des dossiers / fichiers inutiles et prévient leur création.
-- Intégration de [WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker).
-- Intégration de [Wu10Man](https://github.com/WereDev/Wu10Man).
-- Vérification des modifications.
-- Raccourci de Steam sans le navigateur.
-
 Collection of optimization in a single batch.
 - Nvidia graphics cards configuration.
 - Configuration wizard for Windows settings.
-- Registry tweaks.
+- Registry tweaks (427 lines).
 - Permanently remove Windows sounds.
 - Restore the context menu for Windows 11.
 - Disable the loading animation at Windows startup.
@@ -48,4 +24,34 @@ Collection of optimization in a single batch.
 - Verification of changes.
 - Steam shortcut without the browser.
 
+Installation
+- Download Nyaldee optimizer.bat, run as administrator and read instructions.
+
 Credits: abbodi1406, BAU, crazy-max, FR33THY, MSMG, My Digital Life, Orbmu2k, TechPowerUp, WereDev.
+
+Collection d'optimisation dans un seul batch.
+
+- Configuration des cartes graphique Nvidia.
+- Assistant de configuration des paramètres Windows.
+- Configuration du registre (427 lignes).
+- Supprimer définitivement les sons Windows.
+- Restauration du menu contextuel pour Windows 11.
+- Désactivation de l'animation de chargement au démarrage de Windows.
+- Désactivation de l'avatar au démarrage.
+- Désactivation des services.
+- Désactivation de VBS.
+- Activation des DNS OpenDNS.
+- Modifier les effets visuels de façon optimale.
+- Installation du plan d'alimentation Bitsum Highest Performance.
+- Installation des bibliothèques de framework.
+- Installation du service Timer Resolution.
+- Désinstallation de certaines applications.
+- Outil de nettoyage de disques complet.
+- Suppression des dossiers / fichiers inutiles et prévient leur création.
+- Intégration de [WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker).
+- Intégration de [Wu10Man](https://github.com/WereDev/Wu10Man).
+- Vérification des modifications.
+- Raccourci de Steam sans le navigateur.
+
+Installation
+- Téléchargez Nyaldee optimiser.bat, exécutez-le en tant qu'administrateur et lisez les instructions.
