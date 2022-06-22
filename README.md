@@ -1,5 +1,5 @@
 # Nyaldee optimizer for Windows 11
-![alt text](https://github.com/Nyaldee/Nyaldee-optimizer/blob/main/Nyaldee%20optimizer.png?raw=true)
+![test image size]<img src="https://github.com/Nyaldee/Nyaldee-optimizer/blob/main/Azusa-san.png" width="400" height="790">
 
 Collection d'optimisation dans un seul batch.
 
