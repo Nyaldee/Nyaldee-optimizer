@@ -25,9 +25,9 @@ Collection of optimization in a single batch.
 - Steam shortcut without the browser.
 
 Installation
-- Download Nyaldee optimizer.bat, run as administrator and read instructions.
+- Download Nyaldee optimizer.bat, run as administrator and follow instructions.
 
-Credits: abbodi1406, BAU, crazy-max, FR33THY, MSMG, My Digital Life, Orbmu2k, TechPowerUp, WereDev.
+Credits: [abbodi1406](https://github.com/crazy-max/WindowsSpyBlocker), [crazy-max](https://github.com/crazy-max), [FR33THY](https://youtube.com/c/FR33THY), [MSMG](https://msmgtoolkit.in), [Orbmu2k](https://github.com/Orbmu2k), [WereDev](https://github.com/WereDev), BAU, My Digital Life, TechPowerUp.
 
 Collection d'optimisation dans un seul batch.
 
@@ -54,4 +54,4 @@ Collection d'optimisation dans un seul batch.
 - Raccourci de Steam sans le navigateur.
 
 Installation
-- Téléchargez Nyaldee optimiser.bat, exécutez-le en tant qu'administrateur et lisez les instructions.
+- Téléchargez Nyaldee optimiser.bat, exécutez-le en tant qu'administrateur et suivez les instructions.
