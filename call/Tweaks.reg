@@ -5,6 +5,8 @@ Windows Registry Editor Version 5.00
 "MenuIcons"=dword:00000000
 "CascadedMenu"=dword:00000001
 "ElimDupExtract"=dword:00000001
+[HKEY_CURRENT_USER\Control Panel\Keyboard]
+"PrintScreenKeyForSnippingEnabled"=dword:00000000
 [HKEY_CURRENT_USER\Control Panel\UnsupportedHardwareNotificationCache]
 "SV1"=dword:00000000
 "SV2"=dword:00000000
@@ -31,6 +33,7 @@ Windows Registry Editor Version 5.00
 "fAllowToGetHelp"=dword:00000000
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
 "StartupBoostEnabled"=dword:00000000
+"HardwareAccelerationModeEnabled"=dword:00000000
 "BackgroundModeEnabled"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MicrosoftEdgeElevationService]
 "Start"=dword:00000004
@@ -38,8 +41,11 @@ Windows Registry Editor Version 5.00
 "Start"=dword:00000004
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\edgeupdatem]
 "Start"=dword:00000004
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\TaskCache\Tree\MicrosoftEdgeUpdateTaskMachineCore]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\TaskCache\Tree\MicrosoftEdgeUpdateTaskMachineUA]
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
 "StartupBoostEnabled"=dword:00000000
+"HardwareAccelerationModeEnabled"=dword:00000000
 "BackgroundModeEnabled"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\GoogleChromeElevationService]
 "Start"=dword:00000004
@@ -52,8 +58,24 @@ Windows Registry Editor Version 5.00
 [-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run]
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run]
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run]
-"ctfmon"="\"C:\\Windows\\System32\\ctfmon.exe\""
+"ctfmon"="%windir%\\System32\\ctfmon.exe"
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\TaskCache\Tree]
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\ScreenMagnifier]
+"FollowCaret"=dword:00000000
+"FollowNarrator"=dword:00000000
+"FollowMouse"=dword:00000000
+"FollowFocus"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Narrator]
+"IntonationPause"=dword:00000000
+"ReadHints"=dword:00000000
+"ErrorNotificationType"=dword:00000000
+"EchoChars"=dword:00000000
+"EchoWords"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Narrator\NarratorHome]
+"MinimizeType"=dword:00000000
+"AutoStart"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Narrator\NoRoam]
+"EchoToggleKeys"=dword:00000000
 [HKEY_CURRENT_USER\Software\Microsoft\Narrator\NoRoam]
 "DuckAudio"=dword:00000000
 "WinEnterLaunchEnabled"=dword:00000000
@@ -95,18 +117,48 @@ Windows Registry Editor Version 5.00
 "MouseThreshold1"="0"
 "MouseThreshold2"="0"
 "MouseSensitivity"="10"
-[HKEY_CURRENT_USER\Software\Microsoft\GameBar]
-"AutoGameModeEnabled"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Dwm]
+"OverlayTestMode"=dword:00000005
+[HKEY_CURRENT_USER\Software\Microsoft\GameBar] 
+"ShowStartupPanel"=dword:00000000 
+"GamePanelStartupTipIndex"=dword:00000003 
+"AllowAutoGameMode"=dword:00000000 
+"AutoGameModeEnabled"=dword:00000001
 "UseNexusForGameBarEnabled"=dword:00000000
-[HKEY_CURRENT_USER\System\GameConfigStore]
-"GameDVR_Enabled"=dword:00000000
-[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\GameDVR]
+[HKEY_CURRENT_USER\System\GameConfigStore] 
+"GameDVR_Enabled"=dword:00000000 
+"GameDVR_FSEBehaviorMode"=dword:00000002 
+"GameDVR_FSEBehavior"=dword:00000002 
+"GameDVR_HonorUserFSEBehaviorMode"=dword:00000001 
+"GameDVR_DXGIHonorFSEWindowsCompatible"=dword:00000001 
+"GameDVR_EFSEFeatureFlags"=dword:00000000 
+"GameDVR_DSEBehavior"=dword:00000002
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\GameDVR] 
+"AllowGameDVR"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR] 
 "AppCaptureEnabled"=dword:00000000
+[HKEY_CLASSES_ROOT\ms-gamebar]
+@="URL:ms-gamebar"
+"URL Protocol"=""
+"NoOpenWith"=""
+[HKEY_CLASSES_ROOT\ms-gamebar\shell\open\command]
+@="\\`$env:SystemRoot\\System32\\systray.exe\\`"
+[HKEY_CLASSES_ROOT\ms-gamebarservices]
+@="URL:ms-gamebarservices"
+"URL Protocol"=""
+"NoOpenWith"=""
+[HKEY_CLASSES_ROOT\ms-gamebarservices\shell\open\command]
+@="\\`$env:SystemRoot\\System32\\systray.exe\\`"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FlyoutMenuSettings]
+"ShowSleepOption"=dword:00000000
+"ShowLockOption"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power]
+"HibernateEnabled"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerThrottling]
+"PowerThrottlingOff"=dword:00000001
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
 "NetworkThrottlingIndex"=dword:ffffffff
 "SystemResponsiveness"=dword:00000000
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerThrottling]
-"PowerThrottlingOff"=dword:00000001
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games]
 "Affinity"=dword:00000000
 "Background Only"="False"
@@ -116,17 +168,25 @@ Windows Registry Editor Version 5.00
 "Scheduling Category"="High"
 "SFIO Priority"="High"
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers]
-"HwSchMode"=dword:00000002
+"HwSchMode"=dword:00000001
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\VideoSettings]
 "VideoQualityOnBattery"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity]
+"Enabled"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\kernel]
+"GlobalTimerResolutionRequests"=dword:00000001
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching]
 "SearchOrderConfig"=dword:00000000
-[HKEY_CURRENT_USER\Software\NVIDIA Corporation\NvTray]
-"StartOnLogin"=dword:00000000
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\Maintenance]
 "MaintenanceDisabled"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power]
-"HibernateEnabled"=dword:00000000
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications] 
+"GlobalUserDisabled"=dword:00000001
+[HKEY_CURRENT_USER\Software\NVIDIA Corporation\NvTray]
+"StartOnLogin"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvlddmkm\FTS]
+"EnableGR535"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000]
+"RMHdcpKeyglobZero"=dword:00000001
 [HKEY_CURRENT_USER\Control Panel\Sound]
 "Beep"="no"
 [HKEY_CURRENT_USER\AppEvents\Schemes]
@@ -156,8 +216,14 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
 "EnableLUA"=dword:00000000
 "DisableAutomaticRestartSignOn"=dword:00000001
-[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications] 
-"GlobalUserDisabled"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Device Metadata]
+"PreventDeviceMetadataFromNetwork"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\SmartActionPlatform\SmartClipboard]
+"Disabled"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\SearchSettings]
+"IsDynamicSearchBoxEnabled"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\StorageSense]
+"AllowStorageSenseGlobal"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\Maps]
 "AutoUpdateEnabled"=dword:00000000
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
@@ -201,6 +267,8 @@ Windows Registry Editor Version 5.00
 "Value"="Allow"
 [HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Settings\VoiceActivation\UserPreferenceForAllApps]
 "AgentActivationEnabled"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Speech_OneCore\Settings\VoiceActivation\UserPreferenceForAllApps]
+"AgentActivationLastUsed"=dword:00000000
 [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\userNotificationListener]
 "Value"="Deny"
 [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\userAccountInformation]
@@ -238,13 +306,41 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\broadFileSystemAccess]
 "Value"="Deny"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\graphicsCaptureWithoutBorder]
-"Value"="Deny"
+"Value"="Allow"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\graphicsCaptureProgrammatic]
 "Value"="Allow"
 [HKEY_CURRENT_USER\Control Panel\International\User Profile]
 "HttpAcceptLanguageOptOut"=dword:00000001
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\EdgeUI]
+"DisableMFUTracking"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\EdgeUI]
+"DisableMFUTracking"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\InputPersonalization]
+"RestrictImplicitInkCollection"=dword:00000001
+"RestrictImplicitTextCollection"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\InputPersonalization\TrainedDataStore]
+"HarvestContacts"=dword:00000000
+[HKEY_CURRENT_USER\Software\Microsoft\Personalization\Settings]
+"AcceptedPrivacyPolicy"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Siuf\Rules]
+"NumberOfSIUFInPeriod"=dword:00000000
+"PeriodInNanoSeconds"=-
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"PublishUserActivities"=dword:00000000
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\PushNotifications]
 "ToastEnabled"=dword:00000000
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Notifications\Settings\Windows.SystemToast.SecurityAndMaintenance]
+"Enabled"=dword:00000000
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Notifications\Settings\windows.immersivecontrolpanel_cw5n1h2txyewy!microsoft.windows.immersivecontrolpanel]
+"Enabled"=dword:00000000
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Notifications\Settings\Windows.SystemToast.CapabilityAccess]
+"Enabled"=dword:00000000
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Notifications\Settings\Windows.SystemToast.StartupApp]
+"Enabled"=dword:00000000
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"SubscribedContent-338389Enabled"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\UserProfileEngagement]
+"ScoobeSystemSettingEnabled"=dword:00000000
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer]
 "DisableSearchBoxSuggestions"=dword:00000001
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\SearchSettings]
@@ -256,11 +352,11 @@ Windows Registry Editor Version 5.00
 "AITEnable"=dword:00000000
 "DisableInventory"=dword:00000001
 "DisablePCA"=dword:00000001
-"DisablePropPage"=dword:00000001
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
 "link"=hex:00,00,00,00
 "ShowFrequent"=dword:00000000
 "ShowRecent"=dword:00000000
+"ShowCloudFilesInQuickAccess"=dword:00000000
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked]
 "{7AD84985-87B4-4a16-BE58-8B72A5B390F7}"=""
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
@@ -384,6 +480,8 @@ Windows Registry Editor Version 5.00
 "NoExtension"=""
 [HKEY_CLASSES_ROOT\blankfile]
 @="Blank Document"
+[-HKEY_CLASSES_ROOT\.txt]
+[-HKEY_CLASSES_ROOT\txtfile]
 [HKEY_CLASSES_ROOT\.txt]
 @="txtfile"
 [HKEY_CLASSES_ROOT\.txt\ShellNew]
@@ -393,6 +491,8 @@ Windows Registry Editor Version 5.00
 "Extension"=".txt"
 [HKEY_CLASSES_ROOT\txtfile]
 @="Text Document"
+[HKEY_CLASSES_ROOT\txtfile\Shell\Open\Command]
+@="%SystemRoot%\\System32\\notepad.exe \"%1\""
 [HKEY_CLASSES_ROOT\CABFolder\Shell\RunAs]
 @="Install this update"
 "HasLUAShield"=""
