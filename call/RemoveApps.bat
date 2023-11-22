@@ -1,4 +1,33 @@
+%SystemRoot%\System32\OneDriveSetup.exe /uninstall
+dism /online /Disable-Feature /FeatureName:"MediaPlayback" /Quiet /NoRestart
+dism /online /Disable-Feature /FeatureName:"Printing-XPSServices-Features" /Quiet /NoRestart
+dism /online /Disable-Feature /FeatureName:"Printing-PrintToPDFServices-Features" /Quiet /NoRestart
+dism /online /Disable-Feature /FeatureName:"Printing-Foundation-Features" /Quiet /NoRestart
+dism /online /Disable-Feature /FeatureName:"Microsoft-Hyper-V-All" /Quiet /NoRestart
 chcp 437>nul
+Powershell Get-AppxPackage -allusers ^*Microsoft.People^* ^| Remove-AppxPackage
+Powershell Get-AppxPackage -allusers ^*Clipchamp.Clipchamp^* ^| Remove-AppxPackage
+Powershell Get-AppxPackage -allusers ^*Disney.37853FC22B2CE^* ^| Remove-AppxPackage
+Powershell Get-AppxPackage -allusers ^*Microsoft.MSPaint^* ^| Remove-AppxPackage
+Powershell Get-AppxPackage -allusers ^*Microsoft.Microsoft3DViewer^* ^| Remove-AppxPackage
+Powershell Get-AppxPackage -allusers ^*Microsoft.MixedReality.Portal^* ^| Remove-AppxPackage
+Powershell Get-AppxPackage -allusers ^*Microsoft.Office.OneNote^* ^| Remove-AppxPackage
+Powershell Get-AppxPackage -allusers ^*Microsoft.PowerAutomateDesktop^* ^| Remove-AppxPackage
+Powershell Get-AppxPackage -allusers ^*Microsoft.ScreenSketch^* ^| Remove-AppxPackage
+Powershell Get-AppxPackage -allusers ^*Microsoft.SkypeApp^* ^| Remove-AppxPackage
+Powershell Get-AppxPackage -allusers ^*Microsoft.Todos^* ^| Remove-AppxPackage
+Powershell Get-AppxPackage -allusers ^*Microsoft.Wallet^* ^| Remove-AppxPackage
+Powershell Get-AppxPackage -allusers ^*Microsoft.WindowsAlarms^* ^| Remove-AppxPackage
+Powershell Get-AppxPackage -allusers ^*Microsoft.WindowsCamera^* ^| Remove-AppxPackage
+Powershell Get-AppxPackage -allusers ^*Microsoft.WindowsFeedbackHub^* ^| Remove-AppxPackage
+Powershell Get-AppxPackage -allusers ^*Microsoft.WindowsMaps^* ^| Remove-AppxPackage
+Powershell Get-AppxPackage -allusers ^*Microsoft.WindowsSoundRecorder^* ^| Remove-AppxPackage
+Powershell Get-AppxPackage -allusers ^*Microsoft.YourPhone^* ^| Remove-AppxPackage
+Powershell Get-AppxPackage -allusers ^*Microsoft.ZuneMusic^* ^| Remove-AppxPackage
+Powershell Get-AppxPackage -allusers ^*Microsoft.ZuneVideo^* ^| Remove-AppxPackage
+Powershell Get-AppxPackage -allusers ^*MicrosoftCorporationII.QuickAssist^* ^| Remove-AppxPackage
+Powershell Get-AppxPackage -allusers ^*SpotifyAB.SpotifyMusic^* ^| Remove-AppxPackage
+Powershell Get-AppxPackage -allusers ^*Microsoft.WindowsSoundRecorder^* ^| Remove-AppxPackage
 Powershell Get-AppxPackage -allusers ^*Getstarted^* ^| Remove-AppxPackage
 Powershell Get-AppxPackage -allusers ^*Client.WebExperience^* ^| Remove-AppxPackage
 Powershell Get-AppxPackage -allusers ^*windowscommunicationsapps^* ^| Remove-AppxPackage
@@ -36,16 +65,7 @@ Powershell Get-AppxPackage -allusers ^*BingNews^* ^| Remove-AppxPackage
 Powershell Get-AppxPackage -allusers ^*Microsoft.OneDriveSync^* ^| Remove-AppxPackage
 Powershell Get-AppxPackage -allusers ^*SpotifyAB.SpotifyMusic^* ^| Remove-AppxPackage
 Powershell Get-AppxPackage -allusers ^*Teams^* ^| Remove-AppxPackage
-Powershell Get-AppxPackage -allusers ^*Disney.37853FC22B2CE^* ^| Remove-AppxPackage
+Powershell -ExecutionPolicy Bypass -Command "Get-AppxPackage -AllUsers | Where-Object {$_.Name -Like '*OutlookForWindows*'} | Remove-AppxPackage"
+Powershell Get-WindowsPackage -Online | Where PackageName -like *Hello-Face* | Remove-WindowsPackage -Online -NoRestart
+Powershell Get-WindowsPackage -Online | Where PackageName -like *QuickAssist* | Remove-WindowsPackage -Online -NoRestart
 chcp 65001>nul
-dism /online /Disable-Feature /FeatureName:"MediaPlayback" /Quiet /NoRestart
-dism /online /Disable-Feature /FeatureName:"Printing-XPSServices-Features" /Quiet /NoRestart
-dism /online /Disable-Feature /FeatureName:"Printing-PrintToPDFServices-Features" /Quiet /NoRestart
-dism /online /Disable-Feature /FeatureName:"Printing-Foundation-Features" /Quiet /NoRestart
-dism /online /Disable-Feature /FeatureName:"Microsoft-Hyper-V-All" /Quiet /NoRestart
-ren "%SystemRoot%\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe" "Microsoft.MicrosoftEdge_8wekyb3d8bbweold"
-ren "%SystemRoot%\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe" "Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbweold"
-ren "%SystemRoot%\SystemApps\Microsoft.LockApp_cw5n1h2txyewy" "Microsoft.LockApp_cw5n1h2txyewyold"
-ren "%SystemRoot%\SystemApps\Microsoft.Windows.PeopleExperienceHost_cw5n1h2txyewy" "Microsoft.Windows.PeopleExperienceHost_cw5n1h2txyewyold"
-taskkill /f /im OneDrive.exe
-%SystemRoot%\SysWOW64\OneDriveSetup.exe /uninstall
