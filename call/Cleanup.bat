@@ -85,7 +85,6 @@ Powershell -EP Bypass -MTA -NOL -NONI -NOP -C "Remove-Item '%ProgramData%\Micros
 Powershell -EP Bypass -MTA -NOL -NONI -NOP -C "Remove-Item '%ProgramData%\Microsoft\Windows\Start Menu\Programs\Maintenance' -Recurse -Force -EA SilentlyContinue -Verbose"
 Powershell -EP Bypass -MTA -NOL -NONI -NOP -C "Remove-Item '%ProgramData%\Microsoft\Windows\Start Menu\Programs\Accessibility' -Recurse -Force -EA SilentlyContinue -Verbose"
 Powershell -EP Bypass -MTA -NOL -NONI -NOP -C "Remove-Item '%ProgramData%\SoftwareDistribution' -Recurse -Force -EA SilentlyContinue -Verbose"
-Powershell -EP Bypass -MTA -NOL -NONI -NOP -C "Remove-Item '%ProgramData%\WindowsHolographicDevices' -Recurse -Force -EA SilentlyContinue -Verbose"
 Powershell -EP Bypass -MTA -NOL -NONI -NOP -C "Remove-Item '%SystemDrive%\PerfLogs' -Recurse -Force -EA SilentlyContinue -Verbose"
 Powershell -EP Bypass -MTA -NOL -NONI -NOP -C "Remove-Item '%SystemDrive%\Microsoft' -Recurse -Force -EA SilentlyContinue -Verbose"
 Powershell -EP Bypass -MTA -NOL -NONI -NOP -C "Remove-Item '%SystemDrive%\AMD' -Recurse -Force -EA SilentlyContinue -Verbose"
