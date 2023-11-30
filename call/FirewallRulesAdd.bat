@@ -9,4 +9,3 @@ for %%a in (%ipList%) do (
         netsh advfirewall firewall add rule name="Block %%a" dir=out action=block remoteip=%%a enable=yes >nul
     )
 )
-pause
