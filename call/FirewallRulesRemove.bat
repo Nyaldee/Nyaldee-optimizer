@@ -9,4 +9,3 @@ for %%a in (%ipList%) do (
         netsh advfirewall firewall delete rule name="Block %%a" >nul
     )
 )
-pause
